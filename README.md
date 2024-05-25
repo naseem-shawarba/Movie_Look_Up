@@ -3,15 +3,16 @@
 Movie Look Up is a responsive web app that provides information such as casts, plots, and ratings about movies.
 
 ## Frameworks Used
-* Vue
+* Vue2
 * Vuex
-* Vuetify
-* Nuxt
+* Vuetify2
+* Nuxt2
 
 ## Screenshots
 
-![Screenshot](https://github.com/naseem-shawarba/Movie_Look_Up/blob/main/static/screenShot.png)
+![Screenshot1](https://github.com/naseem-shawarba/Projects_Screenshots/blob/main/Movie_Look_Up/Screenshot1.png)
 
+![Screenshot2](https://github.com/naseem-shawarba/Projects_Screenshots/blob/main/Movie_Look_Up/Screenshot2.png)
 
 ## Build Setup
 If you want to clone the repo and run the app locally, you need to obtain an API key from <a href="https://www.omdbapi.com/apikey.aspx">OMDb API</a>. After obtaining the key, create a file named .env in the root directory of the project and add the API key within double quotes as follows:
