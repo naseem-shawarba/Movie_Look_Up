@@ -3,10 +3,10 @@
 Movie Look Up is a responsive web app that provides information such as casts, plots, and ratings about movies.
 
 ## Frameworks Used
-* Vue
+* Vue2
 * Vuex
-* Vuetify
-* Nuxt
+* Vuetify2
+* Nuxt2
 
 ## Screenshots
 
