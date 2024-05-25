@@ -6,9 +6,9 @@ export default {
     commit("setLoading", { loading: true });
     commit("setError", { error: "" });
     commit("setSelectedMovieFullDetails", { selectedMovieFullDetails: {} });
-    let route = `https://www.omdbapi.com/?i=${IMDbID}&plot=full&apikey=${apikey}`;
+    const route = `https://www.omdbapi.com/?i=${IMDbID}&plot=full&apikey=${apikey}`;
     try {
-      let {data} = await axios.get(route);
+      const {data} = await axios.get(route);
 
       if (data.Response === "True") {
         commit("setSelectedMovieFullDetails", {
@@ -35,7 +35,7 @@ export default {
 
     const route = `https://www.omdbapi.com/?s=${movieTitle}&page=${page}&apikey=${apikey}`;
     try {
-      let {data} = await axios.get(route);
+      const {data} = await axios.get(route);
 
       if (data.Response === "True") {
         commit("setMovies", { movies: data.Search });
